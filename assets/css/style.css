@@ -32,7 +32,7 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 * {
@@ -75,6 +75,7 @@ section {
     background-position: center;
     position: relative;
 }
+
 
 .hero-form {
     background-color: #fce138;
@@ -145,6 +146,15 @@ section {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
+  }
+  
+  .section-title-secondary {
+    font-size: 55px;
+    color: #fce138;
+    margin-bottom: 35px;
+    border-bottom: 3px solid;
+    text-align: center;
+    display: grid;
   }
   
 .primary-border {
@@ -269,4 +279,3 @@ section {
     .contact a {
       color: #fce138;
     }
-    
